@@ -1,7 +1,7 @@
 {
   "name": "generator-angular-admin",
-  "version": "0.3.7",
-  "description": "Yeoman generator for Angular Admin",
+  "version": "0.1.0",
+  "description": "Yeoman generator for an Angular Admin",
   "license": "MIT",
   "main": "app/index.js",
   "repository": {
@@ -23,20 +23,21 @@
     "app"
   ],
   "keywords": [
-    "yeoman-generator"
+    "yeoman-generator",
+    "angular",
+    "admin"
   ],
   "dependencies": {
-    "chalk": "^0.5.1",
-    "yargs": "^3.16.1",
-    "yeoman-generator": "^0.17.7",
-    "yosay": "^0.3.0"
+    "underscore.string": "^3.2.2",
+    "yargs": "3.24.0",
+    "yeoman-generator": "0.20.3",
+    "yosay": "1.0.5"
   },
   "devDependencies": {
-    "gulp": "^3.9.0",
-    "gulp-bump": "^0.3.1",
-    "gulp-load-plugins": "^0.10.0",
-    "gulp-task-listing": "^1.0.1",
-    "gulp-util": "^3.0.6",
-    "yargs": "^3.16.1"
+    "gulp": "3.9.0",
+    "gulp-bump": "0.3.1",
+    "gulp-load-plugins": "1.0.0-rc.1",
+    "gulp-task-listing": "1.0.1",
+    "gulp-util": "3.0.6"
   }
 }

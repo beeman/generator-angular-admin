@@ -1,29 +1,26 @@
 # generator-angular-admin
 
-[![NPM version](https://img.shields.io/npm/v/generator-angular-admin.svg?style=flat)](https://www.npmjs.com/package/generator-angular-admin)
-[![Build Status](https://secure.travis-ci.org/beeman/generator-angular-admin.png?branch=master)](https://travis-ci.org/beeman/generator-angular-admin)
+Create an Angular Admin via a [Yeoman](http://yeoman.io) generator, based on [generator-hottowel](https://github.com/johnpapa/generator-hottowel).
 
-Create an Angular application using the HotTowel style (via a [Yeoman](http://yeoman.io) generator)
+A couple of differences between this generator and generator-hottowel:
 
->*Opinionated Angular style guide for teams by [@john_papa](//twitter.com/john_papa)*
+- Only a client and no server code will be generated.
+- Sub-generators for creating new modules, controllers, etc.
+- Integrate more third-party packages.
 
->More details about the styles and patterns used in this app can be found in my [Angular Style Guide](https://github.com/johnpapa/angularjs-styleguide) and my [Angular Patterns: Clean Code](http://jpapa.me/ngclean) course at [Pluralsight](http://pluralsight.com/training/Authors/Details/john-papa) and working in teams.
+## Requirements
 
-## Prerequisites
+1. Install `node` and `npm`.
 
-1. Install [Node.js](http://nodejs.org)
- - on OSX use [homebrew](http://brew.sh) `brew install node`
- - on Windows use [chocolatey](https://chocolatey.org/) `choco install nodejs`
-
-2. Install Yeoman `npm install -g yo`
-
-3. Install these NPM packages globally
-
-    ```bash
-    npm install -g bower gulp nodemon
+1. Install Yeoman globally 
+    ```
+    npm install -g yo
     ```
 
-    >Refer to these [instructions on how to not require sudo](https://github.com/sindresorhus/guides/blob/master/npm-global-without-sudo.md)
+1. Install Gulp and nodemon globally
+    ```
+    npm install -g bower gulp nodemon
+    ```
 
 ## QuickStart
 
@@ -34,13 +31,13 @@ Create an Angular application using the HotTowel style (via a [Yeoman](http://ye
 
 2. Create a new folder and change directory to it
     ```bash
-    mkdir myapp
-    cd myapp
+    mkdir myadmin
+    cd myadmin
     ```
 
 3. Run the generator
     ```bash
-    yo angular-admin helloWorld
+    yo angular-admin MyAdmin
     ```
 
 ## Angular Admin Options

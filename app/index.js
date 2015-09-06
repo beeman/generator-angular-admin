@@ -1,10 +1,9 @@
 'use strict';
-var util = require('util');
 var path = require('path');
 var yeoman = require('yeoman-generator');
 var generators = yeoman.generators;
 var yosay = require('yosay');
-var chalk = require('chalk');
+var _ = require('underscore.string');
 
 var AngularAdminGenerator = generators.Base.extend({
 
@@ -14,7 +13,7 @@ var AngularAdminGenerator = generators.Base.extend({
         generators.Base.apply(this, arguments);
 
         this.argument('appName', { type: String, required: false });
-        this.appName = this._.camelize(this._.slugify(this._.humanize(this.appName)));
+        this.appName = _.camelize(_.slugify(_.humanize(this.appName)));
     },
 
     welcome: function() {
