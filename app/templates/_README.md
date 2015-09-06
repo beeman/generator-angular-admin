@@ -1,26 +1,22 @@
 # <%= appName %>
 
-**Generated from Angular Admin**
+> Generated with [generator-angular-admin](https://github.com/beeman/generator-angular-admin) 
 
->*Opinionated Angular style guide for teams by [@john_papa](//twitter.com/john_papa)*
+## Requirements
 
->More details about the styles and patterns used in this app can be found in my [Angular Style Guide](https://github.com/beeman/angularjs-styleguide) and my [Angular Patterns: Clean Code](http://jpapa.me/ngclean) course at [Pluralsight](http://pluralsight.com/training/Authors/Details/john-papa) and working in teams.
+1. Install `node` and `npm`.
 
-## Prerequisites
+1. Install Yeoman globally 
 
-1. Install [Node.js](http://nodejs.org)
- - on OSX use [homebrew](http://brew.sh) `brew install node`
- - on Windows use [chocolatey](https://chocolatey.org/) `choco install nodejs`
+```
+$ npm install -g yo
+```
 
-2. Install Yeoman `npm install -g yo`
+1. Install Gulp and nodemon globally
 
-3. Install these NPM packages globally
-
-    ```bash
-    npm install -g bower gulp nodemon
-    ```
-
-    >Refer to these [instructions on how to not require sudo](https://github.com/sindresorhus/guides/blob/master/npm-global-without-sudo.md)
+```
+$ npm install -g bower gulp nodemon
+```
 
 ## Running Angular Admin
 

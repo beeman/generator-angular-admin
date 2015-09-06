@@ -11,7 +11,7 @@
         var vm = this;
         vm.news = {
             title: '<%= appName %>',
-            description: 'Hot Towel Angular is a SPA template for Angular developers.'
+            description: 'Angular Admin is a SPA template for Angular developers.'
         };
         vm.messageCount = 0;
         vm.people = [];
