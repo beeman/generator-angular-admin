@@ -1,7 +1,7 @@
-# generator-hottowel
+# generator-angular-admin
 
-[![NPM version](https://img.shields.io/npm/v/generator-hottowel.svg?style=flat)](https://www.npmjs.com/package/generator-hottowel)
-[![Build Status](https://secure.travis-ci.org/johnpapa/generator-hottowel.png?branch=master)](https://travis-ci.org/johnpapa/generator-hottowel)
+[![NPM version](https://img.shields.io/npm/v/generator-angular-admin.svg?style=flat)](https://www.npmjs.com/package/generator-angular-admin)
+[![Build Status](https://secure.travis-ci.org/beeman/generator-angular-admin.png?branch=master)](https://travis-ci.org/beeman/generator-angular-admin)
 
 Create an Angular application using the HotTowel style (via a [Yeoman](http://yeoman.io) generator)
 
@@ -27,9 +27,9 @@ Create an Angular application using the HotTowel style (via a [Yeoman](http://ye
 
 ## QuickStart
 
-1. Install generator-hottowel
+1. Install generator-angular-admin
     ```bash
-    npm install -g generator-hottowel
+    npm install -g generator-angular-admin
     ```
 
 2. Create a new folder and change directory to it
@@ -40,19 +40,19 @@ Create an Angular application using the HotTowel style (via a [Yeoman](http://ye
 
 3. Run the generator
     ```bash
-    yo hottowel helloWorld
+    yo angular-admin helloWorld
     ```
 
-## HotTowel Options
+## Angular Admin Options
 
 ### Application Name
  - Pass in the app's name to avoid being prompted for it
 
     ```bash
-    yo hottowel [appName]
+    yo angular-admin [appName]
     ```
 
-## Running HotTowel
+## Running Angular Admin
 
 ### Linting
  - Run code analysis using `gulp vet`. This runs jshint, jscs, and plato.
@@ -72,8 +72,8 @@ Create an Angular application using the HotTowel style (via a [Yeoman](http://ye
 ### Running the optimized code
  - Run the optimize project from the build folder with `gulp serve-build`
 
-## Exploring HotTowel
-HotTowel Angular starter project
+## Exploring Angular Admin
+Angular Admin starter project
 
 ### Structure
 The structure also contains a gulpfile.js and a server folder. The server is there just so we can serve the app using node. Feel free to use any server you wish.

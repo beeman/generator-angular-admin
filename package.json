@@ -1,17 +1,17 @@
 {
-  "name": "generator-hottowel",
+  "name": "generator-angular-admin",
   "version": "0.3.7",
-  "description": "Yeoman generator for HotTowel Angular",
+  "description": "Yeoman generator for Angular Admin",
   "license": "MIT",
   "main": "app/index.js",
   "repository": {
     "type": "git",
-    "url": "johnpapa/generator-hottowel"
+    "url": "beeman/generator-angular-admin"
   },
   "author": {
-    "name": "John Papa",
-    "email": "",
-    "url": "https://github.com/johnpapa"
+    "name": "Bram Borggreve",
+    "email": "borggreve@gmail.com",
+    "url": "https://github.com/beeman"
   },
   "engines": {
     "node": ">=0.10.0"

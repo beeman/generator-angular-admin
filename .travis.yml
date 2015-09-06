@@ -3,5 +3,5 @@ node_js:
   - '0.10'
 before_install:
   - currentfolder=${PWD##*/}
-  - if [ "$currentfolder" != 'generator-hottowel' ]; then cd .. && eval "mv $currentfolder generator-hottowel" && cd generator-hottowel; fi
+  - if [ "$currentfolder" != 'generator-angular-admin' ]; then cd .. && eval "mv $currentfolder generator-angular-admin" && cd generator-angular-admin; fi
 

@@ -1,4 +1,4 @@
-#generator-hottowel
+#generator-angular-admin
 
 ## 0.2.9 - Correctorus Maximus Erronoeous
 

@@ -6,7 +6,7 @@ var generators = yeoman.generators;
 var yosay = require('yosay');
 var chalk = require('chalk');
 
-var HotTowelGenerator = generators.Base.extend({
+var AngularAdminGenerator = generators.Base.extend({
 
     constructor: function() {
         // arguments and options should be
@@ -19,7 +19,7 @@ var HotTowelGenerator = generators.Base.extend({
 
     welcome: function() {
         this.log(yosay(
-            'Welcome to the HotTowel AngularJS generator!'
+            'Welcome to the Angular Admin generator!'
         ));
     },
 
@@ -40,13 +40,13 @@ var HotTowelGenerator = generators.Base.extend({
 
         this.prompt(prompts, function (answers) {
             this.appName = answers.appName;
-            this.appName = this.appName || 'hottowel'; //path.basename(process.cwd());
+            this.appName = this.appName || 'angular-admin'; //path.basename(process.cwd());
             done();
         }.bind(this));
     },
 
     displayName: function() {
-        this.log('Creating ' + this.appName + ' app based on HotTowel.');
+        this.log('Creating ' + this.appName + ' app based on Angular Admin.');
     },
 
     scaffoldFolders: function () {
@@ -116,4 +116,4 @@ var HotTowelGenerator = generators.Base.extend({
     }
 });
 
-module.exports = HotTowelGenerator;
+module.exports = AngularAdminGenerator;

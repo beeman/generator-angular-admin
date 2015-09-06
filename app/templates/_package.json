@@ -1,6 +1,6 @@
 {
   "name": "<%= appName %>",
-  "description": "<%= appName %> Project Generated from HotTowel Angular",
+  "description": "<%= appName %> Project Generated from Angular Admin",
   "version": "0.0.0",
   "scripts": {
     "init": "npm install",
